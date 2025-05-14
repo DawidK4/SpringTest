@@ -16,8 +16,8 @@ public class DataInitializer {
     // Here the data ought to be initialized
     @EventListener
     public void atStart(ContextRefreshedEvent event) {
-        System.out.println("Initializing Data");
-        Iterable<Product> products = productRepository.findAll();
-        System.out.println(products);
+//        System.out.println("Initializing Data");
+//        Iterable<Product> products = productRepository.findAll();
+//        System.out.println(products);
     }
 }

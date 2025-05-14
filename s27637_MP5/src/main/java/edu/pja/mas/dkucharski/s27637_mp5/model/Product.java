@@ -35,4 +35,9 @@ public class Product {
     @EqualsAndHashCode.Exclude
     @Builder.Default
     private Set<OrderDetails> isContainedBy = new HashSet<>();
+
+    @OneToMany(mappedBy = "product", cascade = CascadeType.REMOVE)
+    @ToString.Exclude
+    @EqualsAndHashCode.Exclude
+    private Set<ProductImage> images = new HashSet<>();
 }

@@ -1,0 +1,6 @@
+2025-05-14 15:42:15.630095+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODUCT" not found; SQL statement:
+select p1_0.id,p1_0.name,p1_0.price,p1_0.quantity from product p1_0 [42102-232]
+2025-05-14 15:42:36.689130+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODUCT" not found; SQL statement:
+select p1_0.id,p1_0.name,p1_0.price,p1_0.quantity from product p1_0 [42102-232]
